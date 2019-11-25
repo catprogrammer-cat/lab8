@@ -40,6 +40,9 @@ int main(){
             break;
         }
     }
+    if(counter == size){
+        counter++;
+    }
     int *array1d_after = new int[counter]; 
     // processing
     for (int i = 0; i<counter-1;i++){
